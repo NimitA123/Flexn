@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+      <ImageView
+          android:id="@+id/action_image"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_margin="10dp"
+          android:onClick="selectImage"
+          android:src = "@mipmap/ic_launcher"
+          tools:ignore="OnClick" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/box"
+       android:layout_margin="10dp"
+       android:hint = "Please Enter Your Name"
+       android:id = "@+id/EnterName"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/box"
+       android:layout_margin="10dp"
+       android:hint = "Please Enter Your Mobile Number"
+       android:id = "@+id/EnterMobile"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:hint = "Please Enter Your Email"
+       android:layout_margin="10dp"
+       android:background="@drawable/box"
+      android:id = "@+id/EnterEmail"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:background="@drawable/box"
+       android:hint = "Please Enter Your Password"
+       android:id = "@+id/EnterPassword"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/box"
+       android:layout_margin="10dp"
+       android:hint = "Please Enter Your Conform Password"
+       android:id = "@+id/EnterConformPassword"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text = "Submit Button"
+       android:id = "@+id/SubmitButton"/>
+</LinearLayout>

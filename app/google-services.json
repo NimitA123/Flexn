@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348198689546",
+    "project_id": "flaxen-b7059",
+    "storage_bucket": "flaxen-b7059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348198689546:android:6eed1c6be1cf7c149e78f3",
+        "android_client_info": {
+          "package_name": "com.example.flaxen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348198689546-3envs6ht1gufa992lr3g620625vqgh4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK0OwuZXtjr99pWAGefOTzrh4eQy_X2cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348198689546-3envs6ht1gufa992lr3g620625vqgh4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
